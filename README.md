@@ -46,7 +46,7 @@ After stopping the process (Ctrl+C), logs were verified in /var/log/snort/:
 Text Alerts: sudo cat /var/log/snort/alert
 Binary PCAPs: Analyzed using sudo snort -r /var/log/snort/snort.log.[timestamp]
 
-🛑 Phase 4: Active Response Mechanisms (IPS)
+🛑 Phase 4: Active Response Mechanisms (IPS).
 The system was transitioned from passive monitoring to active prevention using two distinct methods.
 Method A: Snort Inline Mode (AFPacket)
 Using the drop action, Snort was configured to actively discard packets matching the signature.
