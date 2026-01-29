@@ -60,7 +60,7 @@ Bash
 sudo iptables -A INPUT -s 192.168.10.50 -j DROP
 
 
-Verification: Used sudo iptables -L -v -n to confirm the rule was active and monitored the packet loss during test pings.
+Verification: Used sudo iptables -L -v -n to confirm the rule was active and monitored the packet loss during test pings..
 
 🛠️ Troubleshooting & Fixes
 Syntax Errors: Resolved Unknown rule option errors by ensuring proper semicolon (;) separators and colon (:) usage for sid values.
